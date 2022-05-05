@@ -4,13 +4,15 @@
   "description": "Selenium first project",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha server/**/*.index.js --timeout 15000"
   },
   "author": "apapyan",
   "license": "MIT",
   "keywords": [],
   "dependencies": {
+    "chai": "^4.3.6",
     "chromedriver": "^100.0.0",
+    "mocha": "^10.0.0",
     "selenium-webdriver": "^4.1.2"
   }
 }
